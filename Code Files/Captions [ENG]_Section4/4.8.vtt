@@ -1,0 +1,321 @@
+WEBVTT
+
+0
+00:01.250 --> 00:05.000
+Create an RPA Center of Excellence (CoE) - Part 1
+
+1
+00:05.420 --> 00:11.150
+Now we've seen a basic five step RPA implementation plan and to make sure the RPA initiative is handled
+
+2
+00:11.150 --> 00:17.120
+well in your organization, it's important to make someone responsible for the initiative; especially
+
+3
+00:17.120 --> 00:21.590
+if you have any ambitions of scaling the RPA initiative within your organization.
+
+4
+00:22.400 --> 00:24.310
+And this is what we'll discuss in this lesson.
+
+5
+00:24.740 --> 00:27.700
+How do we build an RPA Center of Excellence?
+
+6
+00:27.710 --> 00:35.390
+That is, how do we build an internal, self-sustaining and scalable RPA expertise to run and maintain
+
+7
+00:35.390 --> 00:36.140
+our robots?
+
+8
+00:40.390 --> 00:46.350
+Well, regardless of its task, a robots essential job is to make the company vision come true.
+
+9
+00:47.050 --> 00:53.710
+I think of RPA as a long range capability meant to empower organizations to evolve strategically
+
+10
+00:53.710 --> 00:57.550
+and increase business value. To achieve this goal,
+
+11
+00:57.700 --> 01:02.890
+you must advise your company and assist them towards developing a Center of Excellence.
+
+12
+01:03.910 --> 01:11.290
+A Center of Excellence is developed by 1) building the skills and capacity you need, 2) articulating a proper
+
+13
+01:11.290 --> 01:14.740
+governance model (and especially for larger initiatives
+
+14
+01:14.770 --> 01:15.980
+this is very important)
+
+15
+01:16.540 --> 01:22.090
+And then finally, 3) launching the Center of Excellence and scale the RPA initiative.
+
+16
+01:24.660 --> 01:30.540
+So looking at the first step, how do we build the skills and capacity we need for an RPA Center of Excellence?
+
+17
+01:30.540 --> 01:31.170
+...
+
+18
+01:32.280 --> 01:37.140
+Well, at the core of your Center of Excellence lies the Robotic Operating Team.
+
+19
+01:37.860 --> 01:43.980
+This Team consists of a set of clearly defined roles and responsibilities, and it is charged with implementing
+
+20
+01:43.980 --> 01:50.010
+and managing the automation as quickly, efficiently and as safely as possible throughout the enterprise.
+
+21
+01:51.240 --> 01:56.760
+To build the skills and capacity you need, you'll first have to find an RPA Sponsor from the business
+
+22
+01:56.760 --> 02:02.700
+side, who will establish the technology as an enterprise-wide strategic priority and that will underwrite
+
+23
+02:02.700 --> 02:04.000
+corporate resources.
+
+24
+02:05.320 --> 02:08.610
+Next, you want to name an RPA Project Manager.
+
+25
+02:09.030 --> 02:13.470
+They will evangelize and drive RPA adoption across the organization.
+
+26
+02:14.250 --> 02:18.200
+The project manager is the guardian of the robotic process automation solution overall.
+
+27
+02:18.210 --> 02:24.480
+They are responsible with ensuring a healthy automation pipeline, while leading the operational
+
+28
+02:24.480 --> 02:26.510
+management for the virtual workforce.
+
+29
+02:27.660 --> 02:31.020
+Then you'll obviously need an RPA Developer.
+
+30
+02:31.350 --> 02:38.280
+They are in charge of designing, developing, testing the automation workflows and supporting the implementation
+
+31
+02:38.280 --> 02:39.660
+of the RPA solution.
+
+32
+02:41.130 --> 02:47.280
+You'll also need an RPA Infrastructure Engineer that is in charge of the infrastructure support for
+
+33
+02:47.280 --> 02:49.590
+server installations and troubleshooting.
+
+34
+02:50.040 --> 02:57.030
+And finally, you'll need and RPA Business Analyst. The RPA Business Analyst will be the process
+
+35
+02:57.030 --> 03:03.600
+subject matter experts located in Business Operations. They will be in charge of creating the process
+
+36
+03:03.600 --> 03:10.170
+definition document (PDD) and process maps used for automation in cooperation with the RPA Developer,
+
+37
+03:10.710 --> 03:15.270
+as well as help out on identifying processes for the automation pipeline.
+
+38
+03:17.520 --> 03:25.110
+So I really recommend these five key robotic roles to be appointed for any company, or especially for
+
+39
+03:25.110 --> 03:28.590
+a small company that wants to start its RPA initiative.
+
+40
+03:29.490 --> 03:35.910
+Note that these roles and responsibilities do not need to represent full-time positions. For example,
+
+41
+03:36.150 --> 03:37.550
+when piloting RPA,
+
+42
+03:37.920 --> 03:41.310
+this could be done in as little as four to eight weeks.
+
+43
+03:41.610 --> 03:44.760
+The RPA Sponsor would then need to secure the funding.
+
+44
+03:45.270 --> 03:51.660
+The RPA Project Manager would run the project spending maybe between 30 to 50% of her time on the
+
+45
+03:51.660 --> 03:52.170
+project.
+
+46
+03:52.890 --> 03:59.580
+The RPA Developer would develop, test and implement the project - and spend probably most of his time on
+
+47
+03:59.580 --> 04:05.100
+the project; while the RPA Infrastructure Engineer would do the necessary server application, setup and
+
+48
+04:05.100 --> 04:10.530
+installation, as well as helping the developer to gain the necessary user and application accesses;
+
+49
+04:10.530 --> 04:13.380
+usually not spending too much time on this.
+
+50
+04:14.520 --> 04:19.860
+The RPA Business Analyst would only be needed to create the process definition document (PDD) and answer process
+
+51
+04:19.860 --> 04:21.870
+specific questions from the developer.
+
+52
+04:22.530 --> 04:29.940
+OK. For larger organizations there are several other roles and responsibilities to consider for the
+
+53
+04:29.940 --> 04:31.330
+Robotic Operating Team.
+
+54
+04:32.130 --> 04:35.780
+First we have the RPA Solution Architect.
+
+55
+04:36.390 --> 04:42.990
+They are the ones who define the architecture of the RPA solution and oversee it end-to-end; assisting
+
+56
+04:42.990 --> 04:46.230
+both in development and in the implementation phases.
+
+57
+04:46.830 --> 04:51.930
+They select the appropriate set of technological tools and features and ensures the alignment of the
+
+58
+04:51.930 --> 04:53.840
+solution with enterprise guidelines.
+
+59
+04:54.870 --> 04:57.810
+Then we have the RPA Supervisor.
+
+60
+04:58.770 --> 05:04.740
+The RPA Supervisor will manage, orchestrate and control the virtual workforce as part of the operational
+
+61
+05:04.740 --> 05:05.420
+environment.
+
+62
+05:06.060 --> 05:12.330
+Their focus is on continuously improving robotic operational performance and resource allocation by
+
+63
+05:12.330 --> 05:18.660
+exploiting the advanced reporting and analytical tools that you'll find within the robotic process automation
+
+64
+05:18.660 --> 05:20.940
+solution that you've chosen for your company.
+
+65
+05:22.980 --> 05:28.410
+Then we have RPA Service Support acting as the first line of assistance for the RPA solution in
+
+66
+05:28.410 --> 05:30.900
+deployment in case of any issues.
+
+67
+05:32.280 --> 05:39.270
+And then we have the RPA Change Manager. An RPA Change Manager is essential for larger companies securing
+
+68
+05:39.270 --> 05:41.850
+an easy adoption of RPA within the company.
+
+69
+05:42.540 --> 05:48.330
+They are the ones who create the change and communication plan aligned to the deliverables of the project.
+
+70
+05:49.050 --> 05:56.010
+They are a catalyst in the transition process, making sure each stakeholder is well-informed and comfortably
+
+71
+05:56.010 --> 05:58.280
+tuned to the changes taking place.
+
+72
+05:59.190 --> 06:05.280
+Remember that automation can potentially lead to some people losing their job, and careful change management
+
+73
+06:05.280 --> 06:06.990
+is therefore very important.
+
+74
+06:09.730 --> 06:16.300
+So now that we have all the roles and know their responsibilities, we could put them into four categories.
+
+75
+06:16.720 --> 06:25.300
+The RPA Sponsor is a representative from the Management group. The RPA Project Manager, Supervisor, Developer
+
+76
+06:25.300 --> 06:28.960
+and Business Analyst are represented from the business side.
+
+77
+06:30.070 --> 06:36.520
+The RPA Solution Architect, Infrastructure Engineer and Service Support is represented from the
+
+78
+06:36.520 --> 06:37.450
+IT side.
+
+79
+06:37.870 --> 06:42.790
+And the RPA Change Manager is a representative from Human Resources.

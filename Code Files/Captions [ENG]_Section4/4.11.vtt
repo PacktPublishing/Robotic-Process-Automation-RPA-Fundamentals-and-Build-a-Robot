@@ -1,0 +1,253 @@
+WEBVTT
+
+0
+00:02.030 --> 00:04.790
+Real-World Applications of RPA.
+
+1
+00:06.580 --> 00:12.340
+The best way to get a proper understanding of RPAs potential is probably to have a look at real-
+
+2
+00:12.340 --> 00:14.860
+world applications of the technology.
+
+3
+00:15.790 --> 00:21.930
+In the following slides, we'll take a look at three real world applications of RPA from my own experience.
+
+4
+00:22.270 --> 00:28.780
+Then I will share a link to a very informative blog post with you, where you can find 67 more
+
+5
+00:28.810 --> 00:32.140
+RPA use cases and applications to have a look at.
+
+6
+00:34.090 --> 00:41.890
+We will start with the Finnish company "Fingrid". Fingrid is a Finnish national electricity transmission
+
+7
+00:41.890 --> 00:50.050
+grid operator and Fingrid's human resources department had monthly peak periods where HR resources had to
+
+8
+00:50.050 --> 00:53.680
+check if time reporting of all Fingrid personnel was correct.
+
+9
+00:54.580 --> 01:00.040
+Checking the recorded hours was a tedious task and was creating pain for the HR resources.
+
+10
+01:01.680 --> 01:09.810
+The solution was an RPA called Tero, or "Tero the hero", as they like to call him, and that is an
+
+11
+01:09.810 --> 01:13.190
+RPA that does two types of work in the payroll process.
+
+12
+01:13.710 --> 01:20.280
+First, Tero is checking holidays in the working time monitoring system, and then Tero is checking
+
+13
+01:20.280 --> 01:22.730
+the correctness of overtime entries.
+
+14
+01:23.250 --> 01:29.070
+So this means that Tero has been taught the rules for overtime work contained in the working our legislation
+
+15
+01:29.070 --> 01:29.970
+in Finland.
+
+16
+01:32.530 --> 01:38.150
+The next example is a large international bank with a branch in Norway.
+
+17
+01:39.220 --> 01:46.140
+So the bank needed to reduce the workload coming from a large number of mortgage loan applications.
+
+18
+01:46.510 --> 01:52.210
+In particular, they wanted to avoid spending employees time on applications that were to be declined
+
+19
+01:52.480 --> 01:55.030
+and wanted these to be scored as "red".
+
+20
+01:56.020 --> 02:02.200
+Other applications should be scored as "green" or "yellow", depending on their urgency. The process of
+
+21
+02:02.200 --> 02:09.070
+deciding what applications to be scored as red, yellow or green, were completely rule-based. Then
+
+22
+02:09.070 --> 02:10.600
+what is more perfect than to apply RPA?
+
+23
+02:10.600 --> 02:14.060
+I don't know, but that is what they did.
+
+24
+02:14.920 --> 02:21.490
+The solution was an RPA solution that was developed to do all the data entry and to integrate data
+
+25
+02:21.490 --> 02:27.520
+from a number of different computer applications into a scoring model, thus scoring the application
+
+26
+02:27.520 --> 02:35.560
+to red for decline; yellow or green. Communication with the applicants and back office personell on email
+
+27
+02:35.560 --> 02:40.630
+and via various digital channels and applications are part of the automated process.
+
+28
+02:43.210 --> 02:51.220
+The third example is for a large Norwegian insurance company. Insurance claim handlers spend
+
+29
+02:51.220 --> 02:54.910
+an awful lot of time preparing insurance claims for handling.
+
+30
+02:55.420 --> 03:01.750
+This includes assisting policyholders and clients with claim filing; like requesting personal information,
+
+31
+03:01.960 --> 03:07.900
+recalling policy information from databases, verifying that the client does not have overdue payments
+
+32
+03:07.900 --> 03:10.100
+and preparing proper documentation.
+
+33
+03:10.660 --> 03:16.870
+It also includes entering claim documentation and data into various systems and calculating claim values.
+
+34
+03:17.380 --> 03:21.950
+All this is done before they can even start accepting or rejecting a claim.
+
+35
+03:23.110 --> 03:28.330
+So the solution here was also an RPA solution that was developed to prepare the claim, including
+
+36
+03:28.330 --> 03:34.870
+collecting data, entering claim data into systems, do necessary claim calculations, and notifying
+
+37
+03:34.870 --> 03:40.360
+the claim handler that the insurance claim was ready for their expert opinion on whether the claim should
+
+38
+03:40.360 --> 03:42.130
+be accepted or rejected.
+
+39
+03:43.240 --> 03:49.570
+For the company in question, the RPA is preparing tens of thousands of claims each year, and it
+
+40
+03:49.570 --> 03:55.810
+saves a lot of time that before the implementation was spent by humans on work that required very
+
+41
+03:55.810 --> 03:56.620
+little thinking.
+
+42
+03:57.930 --> 04:04.110
+All right, so if you want to have a look at more examples, I could really recommend you to go to
+
+43
+04:04.120 --> 04:06.420
+AI Multiples blog on this link.
+
+44
+04:07.480 --> 04:14.160
+The blog post contains 67 RPA use cases and are probably the most complete list of RPA application
+
+45
+04:14.160 --> 04:14.580
+areas
+
+46
+04:14.580 --> 04:19.630
+you could find. And the use cases are categorized into five buckets:
+
+47
+04:20.370 --> 04:24.150
+So first, we have "Common business processes and activities".
+
+48
+04:24.810 --> 04:30.590
+Then we have "Activities in commercial functions" such as sales and customer relationship management.
+
+49
+04:31.560 --> 04:33.990
+Then we have "Activities in support functions".
+
+50
+04:34.350 --> 04:41.700
+So that includes tech support, technology, finance, human resources, operations, and procurement.
+
+51
+04:43.230 --> 04:46.380
+And then we have "Industry specific activities".
+
+52
+04:46.380 --> 04:53.750
+So we have used cases for banking, insurance, telecom, retail, manufacturing, health care and governments.
+
+53
+04:54.420 --> 05:01.160
+And the last category is "RPA applications for personal use", such as digital assistants.
+
+54
+05:01.680 --> 05:02.970
+Check it out.
+
+55
+05:05.800 --> 05:06.790
+Section summary.
+
+56
+05:09.970 --> 05:16.870
+In this section of the course, we have covered a basic implementation plan for piloting RPA, we've
+
+57
+05:16.870 --> 05:22.720
+had a look at how to create an RPA Center of Excellence and what roles and responsibilities are needed.
+
+58
+05:23.020 --> 05:28.900
+And we had a to look at some critical success factors for succeeding with an RPA initiative, before
+
+59
+05:28.900 --> 05:33.490
+we saw some real-world applications of RPA in different businesses.
+
+60
+05:34.660 --> 05:36.240
+In the next section of the course,
+
+61
+05:36.250 --> 05:40.660
+I will tell you how you can take what you've learned further; whether you want to start your career
+
+62
+05:40.660 --> 05:44.620
+as an RPA developer or as an RPA project manager.

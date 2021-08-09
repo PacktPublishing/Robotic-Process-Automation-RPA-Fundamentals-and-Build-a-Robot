@@ -1,0 +1,105 @@
+WEBVTT
+
+0
+00:02.110 --> 00:04.810
+Step 4: Implement process(es).
+
+1
+00:07.220 --> 00:12.320
+Once the processes have been through testing, the robot is ready for production.
+
+2
+00:13.280 --> 00:19.250
+We then publish the automation project, meaning that the workflow we've developed in our RPA software
+
+3
+00:19.520 --> 00:25.370
+are archived together with all the other files in the project folder and are ready to be implemented
+
+4
+00:25.370 --> 00:30.180
+and executed. To execute the automated processes,
+
+5
+00:30.200 --> 00:33.520
+we have several options. Using UiPath
+
+6
+00:33.530 --> 00:40.850
+we could either run the robot manually by pushing the execute button in UiPath Studio as we did earlier,
+
+7
+00:41.300 --> 00:46.940
+or we could run it from the UiPath Assistant or the UiPath Robot desktop application,
+
+8
+00:47.360 --> 00:50.620
+or we could run it directly from UiPath Orchestrator -
+
+9
+00:50.780 --> 00:58.610
+if we have Orchestrator available. For most automated processes, it will make sense to schedule them
+
+10
+00:58.610 --> 01:06.650
+to run at certain events, which is called a "Queue trigger", for example triggered by a file alteration,
+
+11
+01:06.650 --> 01:15.290
+receiving email or because there is a new entry to a database; or to be run at a certain time or a schedule -
+
+12
+01:15.440 --> 01:17.010
+called a "Time trigger".
+
+13
+01:17.780 --> 01:25.100
+Luckily, options for triggers are integrated in most RPA solutions and will be a part of the robot
+
+14
+01:25.100 --> 01:27.230
+design, develop and test phase.
+
+15
+01:29.570 --> 01:36.470
+So just to further elaborate a little bit on "Time triggers", let us assume that our robot should execute
+
+16
+01:36.470 --> 01:45.260
+the automated process every day at 5:00 p.m., with the exceptions of weekends. To set such a schedule,
+
+17
+01:45.290 --> 01:47.900
+we use what is called "cron expressions".
+
+18
+01:48.500 --> 01:55.520
+A "cron expression" is a string consisting of six or seven sub-expressions or fields, separated
+
+19
+01:55.520 --> 02:01.670
+by whitespace that describes individual details of a schedule to execute some routine.
+
+20
+02:02.150 --> 02:07.520
+And there are a lot of websites where you can make "cron expressions" to your automated processes for
+
+21
+02:07.520 --> 02:13.910
+free, like cronmaker.com or crontab.guru.
+
+22
+02:13.920 --> 02:19.910
+The "cron expression" for having our robot executed every day at 5:00 p.m., with the exception of weekends,
+
+23
+02:19.910 --> 02:32.070
+will look like this.  0 0 17 * * 1-5, where the asterisk represent any value.
+
+24
+02:33.050 --> 02:34.480
+There you have it!
+
+25
+02:34.670 --> 02:40.580
+Check out the websites when you need to schedule your robot and good luck implementing your processes.

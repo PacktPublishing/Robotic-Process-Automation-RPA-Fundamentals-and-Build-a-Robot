@@ -1,0 +1,229 @@
+WEBVTT
+
+0
+00:02.190 --> 00:12.180
+RPA - Pros (or benefits). Except from the fact that RPA have capabilities to mimic human interactions
+
+1
+00:12.180 --> 00:18.180
+in the user interface layer of the computer and can work across most systems, applications and platforms;
+
+2
+00:18.690 --> 00:24.390
+other benefits of the technology are: 24/7 operations.
+
+3
+00:25.410 --> 00:31.950
+RPA is operational outside working hours and maintains efficiency 24/7.
+
+4
+00:32.610 --> 00:37.940
+The robot never sleeps, never eats, never smokes and is never sick.
+
+5
+00:38.400 --> 00:40.830
+Neither does it have sick children it needs to stay home with,
+
+6
+00:41.160 --> 00:49.200
+so there will be no queues at peak. Cost reductions: Although there are some investments to be made
+
+7
+00:49.200 --> 00:51.870
+to have a fully operational robotic enterprise,
+
+8
+00:52.140 --> 00:58.230
+A robot costs approximately 1/10th of a human employee. Per automated process,
+
+9
+00:58.230 --> 01:05.160
+we typically see a cost reduction of 30 to 60%. Improved efficiency:
+
+10
+01:05.640 --> 01:13.470
+The robot is very fast and we typically see the robot do task 3 to 15x faster than human employees
+
+11
+01:13.470 --> 01:16.800
+doing the same task. Quality:
+
+12
+01:17.670 --> 01:23.760
+The robot is 100% accurate and therefore prevents errors typically made by humans.
+
+13
+01:24.090 --> 01:30.570
+It is also increasing the focus on exceptions as these will be highlighted and left for humans to correct.
+
+14
+01:31.890 --> 01:33.240
+Valuable work:
+
+15
+01:34.020 --> 01:42.180
+Employees do not need to waste any capacity for routine tasks and can focus on more rewarding and value-
+
+16
+01:42.180 --> 01:44.400
+adding activities in their enterprise.
+
+17
+01:45.750 --> 01:53.100
+Short payback period: RPA implementation costs are usually paid off in less than 12 months.
+
+18
+01:54.210 --> 02:00.540
+Scalability: capacity can be increased on-demand without a long or costly build-up face.
+
+19
+02:01.890 --> 02:03.540
+Then we have Internal control:
+
+20
+02:04.140 --> 02:10.950
+Every action taken by the robot is logged, which offers full audit logs so that we easily can perform
+
+21
+02:10.950 --> 02:14.550
+control and compliance checks on the automated processes.
+
+22
+02:16.450 --> 02:22.600
+And due to its ease of use, RPA software is often developed and configured by the business side in
+
+23
+02:22.600 --> 02:25.720
+organizations, and only monitored by IT.
+
+24
+02:26.290 --> 02:30.070
+This makes it more interesting than a lot of other technologies.
+
+25
+02:30.670 --> 02:33.820
+It's also extremely fast to implement. Development,
+
+26
+02:33.820 --> 02:38.590
+testing and implementation of a business process can be done within weeks.
+
+27
+02:40.600 --> 02:44.690
+So these are the main benefits of the RPA technology.
+
+28
+02:44.920 --> 02:53.080
+Let's have a look at a small example to see the benefits of applying RPA to a simple - but relevant -
+
+29
+02:53.080 --> 02:53.750
+process.
+
+30
+02:55.780 --> 02:59.650
+Most companies receive invoices from their suppliers.
+
+31
+02:59.650 --> 03:06.580
+And suppose that we now have a company where all their invoices are stored in a centralized application.
+
+32
+03:07.660 --> 03:14.230
+A simple process for a worker at our company would be to log into the invoice application once every
+
+33
+03:14.230 --> 03:20.050
+day, manually search for today's invoices, control them; for example:
+
+34
+03:20.290 --> 03:22.150
+Are the invoices approved?
+
+35
+03:22.510 --> 03:24.640
+Does the financial accounts seem right?
+
+36
+03:25.000 --> 03:26.380
+Is the invoice due?
+
+37
+03:26.740 --> 03:29.350
+Is the invoice balanced? And so on...
+
+38
+03:30.070 --> 03:37.600
+Then the employee would post the invoice and end the process. This is a task an RPA would handle
+
+39
+03:37.600 --> 03:42.190
+with ease. The steps would look approximately the same,
+
+40
+03:42.700 --> 03:49.930
+but if, for example, one of the invoices did not make it through the control in step number three,
+
+41
+03:50.500 --> 03:55.630
+then the RPA would send the invoice to a human for manual control before it's posted.
+
+42
+03:57.560 --> 04:06.410
+OK, so imagine that before RPA, the human employees spend two minutes controlling and posting every
+
+43
+04:06.410 --> 04:11.900
+single invoice manually; and that the number of invoices per day was 1100.
+
+44
+04:12.650 --> 04:19.310
+This means that it would take humans approximately 36,5 hours a day to control all
+
+45
+04:19.310 --> 04:20.060
+invoices.
+
+46
+04:20.360 --> 04:24.410
+And also humans should be expected to make a few mistakes along the way.
+
+47
+04:25.640 --> 04:31.040
+Now, imagine that we have an RPA that could do the task in 20 seconds.
+
+48
+04:31.670 --> 04:37.700
+The time spent on 1100 invoices a day would then be 367 minutes
+
+49
+04:37.700 --> 04:39.360
+or 6 hours.
+
+50
+04:39.920 --> 04:46.820
+That is 6x faster and only a few hours of human time would be needed to handle invoices with
+
+51
+04:46.820 --> 04:47.420
+errors.
+
+52
+04:48.470 --> 04:54.650
+So now I want you to pause a minute and just note down what benefits you see of automating this process.
+
+53
+04:55.100 --> 05:00.950
+And you could also, for example, calculate the time saving of having robots doing this task instead
+
+54
+05:00.950 --> 05:01.850
+of humans.
+
+55
+05:02.480 --> 05:07.490
+You could, for instance, say that the robot could handle 90% of the invoices,
+
+56
+05:07.490 --> 05:12.770
+so 10% are still sent to humans for extra control.

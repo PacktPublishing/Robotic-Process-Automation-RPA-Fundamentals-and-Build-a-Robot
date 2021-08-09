@@ -1,0 +1,529 @@
+WEBVTT
+
+0
+00:00.630 --> 00:02.600
+Build a robot! - part 2
+
+1
+00:03.630 --> 00:05.370
+OK, so we're finally here
+
+2
+00:05.400 --> 00:08.310
+where we are going to build a simple robot together.
+
+3
+00:09.030 --> 00:19.170
+Let's open the UiPath Studio application, go to "start" and open a new "process" project. And let's call
+
+4
+00:19.170 --> 00:20.490
+it "cryptobot".
+
+5
+00:29.150 --> 00:34.970
+All right, so we have a blank project and we want to build a robot, but the first thing that we want
+
+6
+00:34.970 --> 00:42.460
+to do is to check that we have the "Excel package" installed so that Excel activities are available.
+
+7
+00:42.980 --> 00:47.100
+So I therefore need you to go to the ribbon and to "manage packages".
+
+8
+00:47.150 --> 00:50.480
+Click here and search for "Excel".
+
+9
+00:55.240 --> 01:00.480
+If it's not installed, you have to install it, if it should be updated, you can update it.
+
+10
+01:00.490 --> 01:03.990
+And like me, it's all up to date and ready.
+
+11
+01:05.260 --> 01:07.450
+So let's go back to our workflow.
+
+12
+01:10.970 --> 01:17.000
+I will just open the main workflow and to start finding the different activities for our process, we
+
+13
+01:17.000 --> 01:19.990
+need a sequence where we can put our activities.
+
+14
+01:20.510 --> 01:25.510
+So if you go to activities, you'll see a sequence here or you can search for it.
+
+15
+01:25.520 --> 01:30.620
+And when you find it, just double-click it so that it's added to our workflow.
+
+16
+01:31.340 --> 01:33.950
+And then I guess we all remember what we aim to do.
+
+17
+01:33.950 --> 01:39.690
+So we're going to open the browser, navigate to coinmarketcap.com, scrape the 20 largest cryptocurrencies
+
+18
+01:39.720 --> 01:45.440
+data, and then we're going to save this data in a .CSV and an .XLSX file.
+
+19
+01:46.370 --> 01:49.850
+The first activity we would need is to open a browser.
+
+20
+01:49.850 --> 01:52.450
+And luckily there is an activity exactly for that.
+
+21
+01:53.000 --> 02:01.040
+If we go here and search for "open browser", we should find it. And we can just drag-and-drop it into
+
+22
+02:01.040 --> 02:02.000
+our sequence.
+
+23
+02:03.110 --> 02:09.370
+And as you already know, the properties for the activity will be available here in the properties panel.
+
+24
+02:09.800 --> 02:14.930
+And here we need to choose the browser type and we'll set it to "Chrome".
+
+25
+02:15.380 --> 02:20.930
+And we also see that we want a new Chrome session, and that's set by default,
+
+26
+02:20.930 --> 02:22.070
+so that's OK too.
+
+27
+02:25.040 --> 02:27.170
+How do we use the activity?
+
+28
+02:27.230 --> 02:31.260
+Well, as it states here, we need to insert our URL?
+
+29
+02:31.280 --> 02:40.130
+So I will just put "coinmarketcap.com" here and now see that there are some validation errors
+
+30
+02:40.130 --> 02:40.490
+here.
+
+31
+02:40.640 --> 02:44.480
+And that's because I didn't put the URL in quotation marks.
+
+32
+02:48.060 --> 02:54.900
+Now it's all good! So let's just test that the robot is able to open the browser now at
+
+33
+02:54.900 --> 03:01.010
+coinmarketcap.com and we just press the "run file" button here and let's see what happens.
+
+34
+03:02.760 --> 03:05.970
+And as you can see, there was a browser window opened.
+
+35
+03:07.330 --> 03:14.410
+And it was open at the correct site. So now we've completed the first step - and actually also the second
+
+36
+03:14.410 --> 03:19.480
+step. Then, we want to scrape the data from coinmarketcap.com.
+
+37
+03:20.110 --> 03:25.090
+And as you might remember, we have the data scraping wizard here in the ribbon.
+
+38
+03:25.630 --> 03:28.960
+So if I click "data scraping", a dialog box will open.
+
+39
+03:30.960 --> 03:33.370
+We're just going to follow the instructions here.
+
+40
+03:33.390 --> 03:39.360
+Open your browser application or document and navigate to where you want to extract data from, and
+
+41
+03:39.360 --> 03:43.480
+we already have the browser open, so that should be easy.
+
+42
+03:44.480 --> 03:51.000
+Then press next in this dialog and hoover the mouse cursor over a data source field and I'm just going
+
+43
+03:51.000 --> 03:57.390
+to hoover my mouse over here in the left-uppermost corner of the data table.
+
+44
+03:59.560 --> 04:02.950
+"You selected a table cell, would you like to extract data from the whole table".
+
+45
+04:03.130 --> 04:03.880
+Yes.
+
+46
+04:04.900 --> 04:08.480
+And then we'll get a preview of the data from UiPath.
+
+47
+04:09.430 --> 04:13.660
+And here we can see that UiPath scraped the 100 first results.
+
+48
+04:13.660 --> 04:17.170
+But as you know, we only want the 20 largest cryptocurrencies,
+
+49
+04:17.170 --> 04:20.950
+so we're just going to change this number down here from a 100 to 20.
+
+50
+04:20.980 --> 04:23.620
+And once we've done that, we just click "finish".
+
+51
+04:28.360 --> 04:33.730
+Then UiPath ask us if the data is spanning multiple pages and we know it doesn't because we only
+
+52
+04:33.730 --> 04:39.130
+need the 20 largest, but if it did and we wanted to scrape all the cryptocurrency data on this site,
+
+53
+04:39.640 --> 04:45.490
+we could push "yes" and we could show UiPath where to click to get the extended list.
+
+54
+04:47.170 --> 04:48.790
+So I will just go "no".
+
+55
+04:49.900 --> 04:52.270
+And then we're back in Studio.
+
+56
+04:54.570 --> 05:00.540
+What we would need to do now is to click the "extract structured data table" activity within the attach browser
+
+57
+05:00.540 --> 05:01.240
+container.
+
+58
+05:02.040 --> 05:08.160
+Once I click this, you will see over here at the properties panel that the data table or output is
+
+59
+05:08.160 --> 05:10.710
+called "ExtractDataTable".
+
+60
+05:15.580 --> 05:22.330
+If we go down to the control bar and have a look at the variables, we can also see it is here.
+
+61
+05:24.100 --> 05:31.930
+And what we need to do with this variable is to change the scope from "data scraping" to the whole project,
+
+62
+05:31.930 --> 05:37.030
+or "sequence", and the reason for doing that is when the scope was set to data scraping,
+
+63
+05:37.030 --> 05:43.480
+it's only valid for the activities within the window. Once we've now changed the scope to the sequence,
+
+64
+05:43.810 --> 05:48.250
+that makes it easier for us to save it later in the .CSV and Excel workbook file.
+
+65
+05:48.670 --> 05:56.020
+So now the data scraping is done and I will just collapse these windows so it all looks a little bit
+
+66
+05:56.020 --> 05:56.560
+neater.
+
+67
+06:01.930 --> 06:08.110
+Next, we want to save the file as a .CSV and .XLSX file, there are, of course, activities
+
+68
+06:08.110 --> 06:09.050
+to do that.
+
+69
+06:09.250 --> 06:20.610
+So if we just go to our activities search bar again and search for "write csv", we will find our activity.
+
+70
+06:21.310 --> 06:21.670
+Again
+
+71
+06:21.670 --> 06:24.640
+I will just drag-and-drop it to our sequence.
+
+72
+06:25.480 --> 06:27.640
+And then we got a few options here.
+
+73
+06:27.880 --> 06:34.660
+First we're asked to provide the file path. Here, we will simply type "cryptodata.csv"
+
+74
+06:34.670 --> 06:37.690
+"cryptodata.csv"
+
+75
+06:41.900 --> 06:45.650
+And then we're asked, what data table are we going to write to the .CSV file?
+
+76
+06:46.250 --> 06:51.590
+Well, if we remember the name of our variable, it's the "ExtractDataTable" that we want to save.
+
+77
+06:52.920 --> 07:00.150
+So we're just going to start typing "Extract", and we'll see our variable pop-up here so we can double-
+
+78
+07:00.150 --> 07:06.100
+click it or we could click "tab" on our keyboard and then we're done with the activity. By default
+
+79
+07:06.100 --> 07:10.580
+the file path will be wherever you've saved your automation project.
+
+80
+07:10.590 --> 07:13.800
+So that's where the cryptodata.csv file will be stored.
+
+81
+07:14.700 --> 07:18.000
+And now we want to do the same with the Excel workbook file.
+
+82
+07:18.570 --> 07:21.180
+So we need to go to the activities search bar again.
+
+83
+07:21.180 --> 07:24.120
+And this time we can write "write range".
+
+84
+07:24.690 --> 07:30.510
+As you can see, we have two different activities, but we're going to choose the one under > system > file
+
+85
+07:30.510 --> 07:31.290
+> workbook.
+
+86
+07:32.190 --> 07:38.310
+So we just drag-and-drop it to our sequence and then the same procedure again.
+
+87
+07:38.760 --> 07:45.120
+So in the workbook path we write "cryptodata.xlsx".
+
+88
+07:48.450 --> 07:52.080
+Then we're asked, where do we want to write the data?
+
+89
+07:52.110 --> 07:56.430
+Well, we want to write it in "Sheet1" and we're going to start it with cell "A1".
+
+90
+07:58.490 --> 08:02.750
+And again, we just search for our "ExtractDataTable" variable.
+
+91
+08:05.140 --> 08:13.180
+Now, I just want to show you my project folder located at > documents > UiPath > Cryptobot, and
+
+92
+08:14.170 --> 08:18.400
+as you can see, there are no files here now.
+
+93
+08:18.790 --> 08:23.710
+But once we run our robot, our cryptodata files will be stored here in the project folder.
+
+94
+08:24.010 --> 08:29.500
+OK, so let's try to run the robot and see if it actually manages to scrape the data and save it to
+
+95
+08:29.500 --> 08:32.860
+the different files and store in the project folder.
+
+96
+08:39.020 --> 08:43.790
+So it opens a new browser, a new session, and scrapes the data, and now it should be saved.
+
+97
+08:43.910 --> 08:50.780
+And as you can see, when I open my cryptobot-project folder, there are now two files here.
+
+98
+08:51.320 --> 08:57.980
+And if I just open the Excel workbook file, let's just have a look if the data is here and yes, it
+
+99
+08:57.980 --> 08:58.280
+is.
+
+100
+08:58.850 --> 09:04.610
+So now we managed to do everything we wanted to do; open the browser, get the data and save it to two
+
+101
+09:04.610 --> 09:06.000
+different file formats.
+
+102
+09:06.770 --> 09:08.060
+Did you manage to do this?
+
+103
+09:08.210 --> 09:11.710
+And if you did so, you've actually built your first software robot!
+
+104
+09:12.140 --> 09:13.530
+That's pretty cool, isn't it?
+
+105
+09:13.970 --> 09:15.190
+Congratulations!
+
+106
+09:15.620 --> 09:20.930
+I've added the project file to this courses downloadable resources so that you may have a look at my
+
+107
+09:20.930 --> 09:21.590
+solution.
+
+108
+09:22.070 --> 09:27.230
+And if you remember from the last lesson, there were two more activities in the solution we went through
+
+109
+09:27.230 --> 09:31.550
+in the former lesson. We closed the browser once the data had been scraped,
+
+110
+09:31.550 --> 09:37.100
+and we also had a message box popping up at the end of the execution just to tell us that the process
+
+111
+09:37.100 --> 09:38.120
+went successfully.
+
+112
+09:38.960 --> 09:43.430
+So if you like, you can try to implement those activities into your workflow now.
+
+113
+09:43.880 --> 09:49.040
+And if you want to further challenge yourself, try to see if you manage to send the two files as an email
+
+114
+09:49.040 --> 09:54.170
+attachment using UiPath Email Activities and your preferred email client.
+
+115
+09:54.920 --> 10:01.550
+You may also experiment with cleaning the data table before writing it to the .CSV or the Excel workbook file,
+
+116
+10:01.790 --> 10:06.830
+for example, by removing empty columns. Section summary:
+
+117
+10:07.460 --> 10:13.400
+In this section of the course, we got to know the UiPath platform, we have installed and got to know
+
+118
+10:13.400 --> 10:16.040
+the UiPath Studio developer application,
+
+119
+10:16.040 --> 10:22.250
+and we've built a simple robot together that extracts data from a website and saves it in different
+
+120
+10:22.250 --> 10:23.960
+file formats on the computer.
+
+121
+10:24.680 --> 10:29.810
+And I'm sure that if you look at some of your tasks at your workplace, you see that you often go
+
+122
+10:29.810 --> 10:33.320
+somewhere, you get some data and you do something about it.
+
+123
+10:33.650 --> 10:38.120
+Maybe there is a chance a robot can do that for you now and in the future?
+
+124
+10:39.200 --> 10:44.200
+You now know how to build an actual robot using one of the most widely used RPA platforms.
+
+125
+10:44.450 --> 10:45.700
+Congratulations!
+
+126
+10:45.980 --> 10:49.400
+That is a huge step towards fully understanding RPA.
+
+127
+10:49.670 --> 10:55.550
+And for those of you that are extra interested in learning more about RPA development, please check
+
+128
+10:55.550 --> 10:59.360
+out the "Further learning" lesson in section five of this course.
+
+129
+10:59.720 --> 11:05.060
+In the next section of this course, we'll have a look at a basic plan for piloting and implementing
+
+130
+11:05.060 --> 11:07.250
+RPA in your enterprise.
+
+131
+11:07.550 --> 11:08.570
+So stay tuned.

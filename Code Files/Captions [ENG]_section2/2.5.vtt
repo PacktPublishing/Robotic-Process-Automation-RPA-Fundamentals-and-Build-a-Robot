@@ -1,0 +1,205 @@
+WEBVTT
+
+0
+00:01.930 --> 00:05.230
+RPA - Cons (or disadvantages)
+
+1
+00:07.940 --> 00:17.420
+First of all, not all tasks are ideal for RPA. The automation capabilities provided by RPA are
+
+2
+00:17.450 --> 00:25.700
+ideal for tasks that are repetitive, rules based, high volume, and that do not require human judgment.
+
+3
+00:26.480 --> 00:33.500
+RPA implementation is especially difficult with business processes that are non-standardized and require
+
+4
+00:33.500 --> 00:36.370
+frequent human intervention in order to execute.
+
+5
+00:37.340 --> 00:43.700
+Also, processes that do not have digital standardized inputs are not suitable to be automated with
+
+6
+00:43.700 --> 00:45.300
+today's RPA solutions.
+
+7
+00:45.980 --> 00:52.280
+An example would be when a customer sends their bank a letter, that is paper-based and unstructured.
+
+8
+00:52.880 --> 00:58.910
+The company would then receive, scan and reallocate this letter to the correct department for processing.
+
+9
+00:59.480 --> 01:06.390
+In this case, RPA will only work with a collection of other implemented technologies  such as OCR -
+
+10
+01:06.740 --> 01:09.590
+required to make it digital and structured.
+
+11
+01:10.340 --> 01:13.880
+This can become a costly hurdle before RPA can be applied,
+
+12
+01:14.600 --> 01:20.990
+so it's very important for companies to determine which of their processes are suitable for RPA so that
+
+13
+01:20.990 --> 01:22.490
+automation runs smoothly.
+
+14
+01:23.990 --> 01:27.740
+Non-optimal processes should not be automated.
+
+15
+01:28.760 --> 01:30.740
+Don't automate bad processes.
+
+16
+01:31.100 --> 01:37.640
+Processes need to be streamlined and mapped out to ensure automation can deliver the anticipated benefits.
+
+17
+01:38.300 --> 01:44.570
+Processes that are unstable or prone to change are not good candidates for RPA.
+
+18
+01:47.290 --> 01:55.180
+Any process change means updating of the RPA code. Bear in mind that changes like modified data field
+
+19
+01:55.180 --> 02:02.440
+mappings, change in email addresses, vendor upgrades to systems and applications can affect the robot
+
+20
+02:02.440 --> 02:06.010
+functionality and might need code maintenance.
+
+21
+02:08.060 --> 02:14.780
+There is still need for human intervention as robots don't respond well to exceptions. Humans will
+
+22
+02:14.780 --> 02:20.120
+still have to manage exceptions and deal with any scenarios that robots cannot handle.
+
+23
+02:21.830 --> 02:23.810
+And although I said that
+
+24
+02:24.890 --> 02:29.910
+robots are usually built and configured by the business side in the organization;
+
+25
+02:30.170 --> 02:37.100
+there is still need for IT involvement. Though RPA is marketed as a tool for business users to achieve
+
+26
+02:37.100 --> 02:44.600
+quick improvements, IT involvement is essential to ensure that support, disaster recovery and change
+
+27
+02:44.600 --> 02:46.250
+management procedures are followed.
+
+28
+02:46.820 --> 02:53.690
+This is particularly important because broader architecture and system changes can affect the operation
+
+29
+02:53.690 --> 02:54.560
+of robots.
+
+30
+02:56.870 --> 03:01.070
+Then there is the fact that RPA is not especially intelligent today.
+
+31
+03:01.700 --> 03:04.150
+It's not a cognitive computing solution.
+
+32
+03:04.160 --> 03:12.170
+It cannot learn from experience - yet. As a process evolve, for example through the introduction and
+
+33
+03:12.170 --> 03:17.800
+use of other technologies; robots may become redundant and require changes.
+
+34
+03:17.810 --> 03:24.740
+Here I would just like to add a side note that there are a lot of initiatives going on at most of the RPA
+
+35
+03:24.740 --> 03:31.550
+software vendors on including more cognitive technologies, like machine learning, in the software.
+
+36
+03:32.150 --> 03:36.320
+So this is a field where RPA is evolving very quickly.
+
+37
+03:38.460 --> 03:47.580
+OK, so another disadvantage of RPA is employee resistance and onboarding. Any changes to a
+
+38
+03:47.580 --> 03:53.490
+company implementation of a new technology can be stressful for employees as they might experience
+
+39
+03:53.490 --> 03:59.570
+shifts in their own responsibilities - or worse, they might lose their jobs to the machines.
+
+40
+04:00.360 --> 04:06.930
+Frequent communication from company leaders and executive sponsors to ensure employees are fully informed
+
+41
+04:06.930 --> 04:13.740
+about what is expected of them throughout the implementation process is essential to successful adoption
+
+42
+04:13.740 --> 04:14.700
+of RPA.
+
+43
+04:15.480 --> 04:21.210
+Fostering a culture of innovation within the company will only further accelerate this adoption.
+
+44
+04:23.200 --> 04:29.860
+There is a need to manage the RPA solution and Team; meaning that you need both people and competence
+
+45
+04:29.860 --> 04:30.940
+to be successful.
+
+46
+04:31.570 --> 04:38.470
+Although robots alone are not very expensive, having a Center of Excellence (CoE) and allocating resources
+
+47
+04:38.470 --> 04:45.580
+to manage the RPA solution is extremely important, and there are some initial investments needed to
+
+48
+04:45.820 --> 04:47.560
+be made to make this happen.
+
+49
+04:49.450 --> 04:54.280
+In a later lesson, we'll talk more about how to create an RPA Center of Excellence and what roles
+
+50
+04:54.280 --> 04:57.120
+and responsibilities that are needed.

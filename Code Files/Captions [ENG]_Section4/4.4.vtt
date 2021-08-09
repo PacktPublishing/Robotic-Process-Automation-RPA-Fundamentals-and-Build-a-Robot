@@ -1,0 +1,261 @@
+WEBVTT
+
+0
+00:02.260 --> 00:04.900
+Step 2: Describe process(es).
+
+1
+00:08.100 --> 00:15.540
+OK, so once we've found and prioritized our automation super candidates and decided that we want to automate
+
+2
+00:15.540 --> 00:23.880
+the processes, we need to describe the process in detail. And this is done in what we call a "Process
+
+3
+00:23.880 --> 00:25.530
+Definition Document" (PDD).
+
+4
+00:27.110 --> 00:33.710
+The document contains the high level flow of the manual process, and it is usually used as a platform
+
+5
+00:34.040 --> 00:40.670
+from which the automated solution will be designed. Companies have different views on how a "Process
+
+6
+00:40.670 --> 00:45.920
+Definition Document" (or a PDD) should look like and what it should contain.
+
+7
+00:46.160 --> 00:50.400
+But as a minimum, I recommend you to include at least the following:
+
+8
+00:51.290 --> 00:56.720
+So first we have the process flow description or the AS-IS process description.
+
+9
+00:57.590 --> 01:04.050
+This could be illustrated using flowcharts, screenshots or other supporting company documentations.
+
+10
+01:04.760 --> 01:10.400
+This should be done both high level so that it's easy to follow and understand the process; and it should
+
+11
+01:10.400 --> 01:12.920
+be done at a very detailed level,
+
+12
+01:13.190 --> 01:20.030
+click-by-click, for the RPA developer to see what is actually done today by the people doing the process
+
+13
+01:20.030 --> 01:20.590
+manually.
+
+14
+01:22.700 --> 01:28.340
+Then we have process facts, and these are facts like those used to evaluate the process,
+
+15
+01:28.340 --> 01:34.790
+so number of transactions a month, the task time, the automation potential, etc..
+
+16
+01:36.420 --> 01:43.690
+Then we have IT systems, which is used in the process - and a description of what they are used for.
+
+17
+01:44.310 --> 01:50.190
+So, for example, we could say that we used the ERP system SAP for collecting the data.
+
+18
+01:50.580 --> 01:54.540
+We use Microsoft Excel for making a report.
+
+19
+01:54.960 --> 02:01.800
+We use Microsoft Outlook for sending the report on email and we use Microsoft One Drive for uploading
+
+20
+02:01.800 --> 02:03.510
+the report backup.
+
+21
+02:06.610 --> 02:07.940
+Process exceptions.
+
+22
+02:08.110 --> 02:14.530
+So we should have a list of exceptions that may occur during the process and what the robot should do
+
+23
+02:14.530 --> 02:20.710
+in each of these cases. So exceptions can be both known and unknown.
+
+24
+02:21.220 --> 02:27.580
+For example, let's say that the email or password the robot uses to log into a web application
+
+25
+02:27.820 --> 02:34.180
+has expired and an error message pops up. Then the robot can send an email to the process owner.
+
+26
+02:34.820 --> 02:40.870
+And for any unknown exception, the robot should, for instance, notify the process owner and the RPA
+
+27
+02:40.870 --> 02:41.490
+developer.
+
+28
+02:42.820 --> 02:48.340
+It's a very important part of building a well functioning RPA initiative that your enterprise have
+
+29
+02:48.340 --> 02:51.370
+clear routines and protocols for handling exceptions.
+
+30
+02:52.030 --> 02:57.580
+In some cases, exceptions can be handled by running the robots again, while other times the process
+
+31
+02:57.580 --> 02:58.810
+must be run manually.
+
+32
+03:00.430 --> 03:04.590
+Lastly, we have the business area and department affected.
+
+33
+03:05.170 --> 03:11.770
+For example, if the solution introduces a new work routine and the Finance Director would need
+
+34
+03:11.770 --> 03:17.360
+to verify the automated entries, this must be clear from the "Process Definition Document".
+
+35
+03:18.130 --> 03:23.740
+Also, this section should include some information on how the process will be sponsored and where to
+
+36
+03:23.740 --> 03:27.430
+allocate the associated cost of automating the business process.
+
+37
+03:31.710 --> 03:37.560
+Luckily, there are numerous tools you can use to help describe your processes, and that will make
+
+38
+03:37.560 --> 03:40.890
+creating the "Process Definition Document" a lot faster,
+
+39
+03:41.280 --> 03:43.530
+and here are some tools you may consider:
+
+40
+03:45.000 --> 03:46.530
+First, we have Lucidchart.
+
+41
+03:47.100 --> 03:52.770
+Lucidchart is an online tool that helps you create process flow descriptions and there is no download
+
+42
+03:52.770 --> 03:56.380
+needed and you will come a long way using the free version.
+
+43
+03:57.390 --> 04:03.780
+We also have diagrams.net, which is formally known as draw.io, which is another free online
+
+44
+04:03.780 --> 04:06.690
+software to help you create process flow descriptions.
+
+45
+04:07.080 --> 04:15.000
+And then we have Microsoft's very own Visio, which is part of Microsoft Office 365 and available to
+
+46
+04:15.000 --> 04:18.000
+most enterprises using Microsoft software.
+
+47
+04:19.800 --> 04:26.700
+And then if you've chosen UiPath as your RPA vendor, they also have their very own tool called
+
+48
+04:26.700 --> 04:28.920
+the UiPath Task Capture.
+
+49
+04:29.810 --> 04:36.320
+Task Capture comes along as you move through a work process you'd like to automate, taking screenshots
+
+50
+04:36.320 --> 04:38.580
+and gathering data for each step.
+
+51
+04:38.810 --> 04:45.980
+Then it pulls everything together into a draft "Process Definition Document", ready for you to fill in
+
+52
+04:45.980 --> 04:46.840
+the details,
+
+53
+04:47.270 --> 04:54.620
+and it also creates a UiPath workflow skeleton or diagram, that your RPA developer may open in
+
+54
+04:54.620 --> 04:57.350
+UiPath to start automating the process.
+
+55
+04:59.270 --> 05:05.150
+Once you install this software, you can quickly document a process by capturing employee steps in
+
+56
+05:05.150 --> 05:11.180
+the graphical user interface of the computer. You can create a detailed process description and enhance it
+
+57
+05:11.180 --> 05:13.730
+with subject matter experts feedback,
+
+58
+05:14.120 --> 05:20.060
+and then you can output the data as a "Process Definition Document" and a workflow skeleton or diagram
+
+59
+05:20.060 --> 05:21.990
+to be used in UiPath studio.
+
+60
+05:22.550 --> 05:23.900
+So it's a very handy tool.
+
+61
+05:26.100 --> 05:33.450
+I've added an example of a PDD document provided by UiPath in the downloadable resources of this training,
+
+62
+05:33.450 --> 05:38.820
+so that you can have a look and get an idea of what such a document may look like before creating one
+
+63
+05:38.820 --> 05:45.200
+for your company. Once the "Process Definition Document" is approved by relevant stakeholders,
+
+64
+05:45.480 --> 05:50.640
+we go to step three of the basic plan for implementing RPA in your organization.

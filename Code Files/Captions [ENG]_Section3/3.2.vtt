@@ -1,0 +1,333 @@
+WEBVTT
+
+0
+00:02.610 --> 00:10.170
+The UiPath Platform. We will start by having a look at a video from UiPath presenting their own platform
+
+1
+00:10.170 --> 00:15.420
+before going a little more into detail of the most central components of the platform.
+
+2
+00:17.570 --> 00:24.380
+Robotic process automation is a proven way to enhance the way people work. By automating mundane and
+
+3
+00:24.380 --> 00:29.450
+repetitive tasks, users are freed up to focus on thought provoking work that requires creativity,
+
+4
+00:29.690 --> 00:31.610
+critical thinking and human judgment.
+
+5
+00:32.210 --> 00:37.880
+For a growing number of organizations, the UiPath Enterprise RPA Platform is the right choice for deploying
+
+6
+00:37.880 --> 00:38.510
+RPA.
+
+7
+00:38.600 --> 00:45.230
+With the UiPath Enterprise RPA Platform, companies can gain capacity, enhance efficiency and increase process,
+
+8
+00:45.230 --> 00:47.080
+scalability and flexibility.
+
+9
+00:47.620 --> 00:49.190
+The UiPath Enterprise RPA Platform
+
+10
+00:49.190 --> 00:55.160
+consists of three main components: Studio, Robots and Orchestrator.
+
+11
+00:55.790 --> 01:01.490
+Studio is a highly visual, intuitive automation tool with process recorders and pre-built drag and
+
+12
+01:01.490 --> 01:07.610
+drop activities that enable people without developer skills to quickly create RPA workflows.
+
+13
+01:07.610 --> 01:14.240
+Robots are software workers that run the automation's created in Studio. UiPath robots fit every business process.
+
+14
+01:14.750 --> 01:15.230
+...
+
+15
+01:15.230 --> 01:19.010
+Attended robots directly assist employees, while unattended robots work autonomously.
+
+16
+01:19.760 --> 01:25.640
+And finally, Orchestrator is an intelligent console that deploys robots, schedules work and reports
+
+17
+01:25.640 --> 01:26.420
+on performance.
+
+18
+01:26.960 --> 01:33.710
+All UiPath Enterprise RPA Platform components work together seamlessly. Rapidly delivering unmatched,
+
+19
+01:33.860 --> 01:40.010
+innovative, end-to-end solutions that give customers a competitive edge in performance, cost and user experience.
+
+20
+01:40.010 --> 01:40.760
+...
+
+21
+01:43.080 --> 01:51.480
+As you learned from the video, The UiPath RPA Platform consists of three main components: Studio, Orchestrator
+
+22
+01:51.510 --> 01:52.590
+and Robots.
+
+23
+01:54.030 --> 02:00.000
+UiPath Studio is the developer tool that is used to automate your processes with the minimum use
+
+24
+02:00.000 --> 02:00.750
+of code.
+
+25
+02:01.530 --> 02:10.170
+UiPath offers three distinct versions of UiPath Studio, namely StudioX, Studio and Studio Pro.
+
+26
+02:11.430 --> 02:19.050
+StudioX is for business users with no or very limited coding skills and is for automating straightforward
+
+27
+02:19.050 --> 02:20.170
+and simple tasks.
+
+28
+02:20.580 --> 02:29.040
+It is basically a very intuitive no-coding tool. Studio is for RPA developers with basic programming
+
+29
+02:29.040 --> 02:29.690
+knowledge.
+
+30
+02:29.700 --> 02:36.480
+And is for automating more complex tasks. This is the version we will be downloading and be using throughout
+
+31
+02:36.480 --> 02:44.580
+this training. Studio Pro is for specialized developers with advanced programming knowledge and
+
+32
+02:44.580 --> 02:51.090
+offer, among other, more testing capability and the opportunity to code C# automation projects
+
+33
+02:51.090 --> 02:52.950
+directly in the software.
+
+34
+02:56.900 --> 03:06.170
+UiPath Orchestrator is a web application that enables you to orchestrate your UiPath robots in executing
+
+35
+03:06.170 --> 03:13.820
+repetitive business processes. Orchestrator's main capabilities include: Provisioning, meaning creating
+
+36
+03:13.820 --> 03:20.720
+and maintaining the connection between robots and the web application. Deployment, meaning assuring
+
+37
+03:20.720 --> 03:28.340
+the correct delivery of package versions to the assigned robots for execution. Configuration, meaning
+
+38
+03:28.340 --> 03:31.790
+maintaining and delivering robot environments and processes configuration.
+
+39
+03:31.790 --> 03:40.460
+Queues, meaning ensuring automatic workload distribution across different robots.
+
+40
+03:40.470 --> 03:45.170
+Monitoring, meaning keeping track of robot identification data and maintain user permissions.
+
+41
+03:45.830 --> 03:53.240
+Logging, meaning storing and indexing of log files to a SQL database and/or Elasticsearch, depending
+
+42
+03:53.240 --> 04:00.590
+on your architecture and configuration; and Interconnectivity, meaning acting as the centralized point
+
+43
+04:00.590 --> 04:04.610
+of communication for third-party solutions or applications.
+
+44
+04:06.440 --> 04:13.160
+In this training, we will not use Orchestrator to deploy and pass automated processes onto UiPath Robot.
+
+45
+04:13.160 --> 04:13.730
+...
+
+46
+04:13.850 --> 04:21.140
+We will simply run our processes directly from Studio; and that takes me to the last component, which
+
+47
+04:21.140 --> 04:22.880
+is the UiPath Robots
+
+48
+04:24.560 --> 04:33.080
+So UiPath Robots carry out processes and there are two main types of robots; attended robots and
+
+49
+04:33.110 --> 04:42.320
+unattended robots. Attended robots work side-by-side with humans on their desktops and act like personal
+
+50
+04:42.320 --> 04:45.350
+assistants to help out with daily tasks.
+
+51
+04:46.130 --> 04:54.800
+Employees access, schedule, and run attended automations in what is called UiPath Assistant, which is a desktop
+
+52
+04:54.800 --> 04:56.720
+launchpad for automations.
+
+53
+04:57.200 --> 05:01.100
+In this training, we will be using an attended robot to run our processes.
+
+54
+05:02.420 --> 05:08.780
+Unattended robots work independently in the background and handle task heavy, long running processes.
+
+55
+05:09.440 --> 05:15.620
+Unattended robots usually run at scheduled times on a company server or in the cloud with little or
+
+56
+05:15.620 --> 05:17.330
+no human intervention at all.
+
+57
+05:17.810 --> 05:23.660
+But if human intervention is needed, unattended robots will check-in with employees for validation
+
+58
+05:23.660 --> 05:30.860
+or if there's a question or exception via the UiPath Action Center, which is another part of the
+
+59
+05:30.860 --> 05:31.800
+UiPath platform.
+
+60
+05:33.410 --> 05:39.350
+So now that you know about the three main components, what we would need to pilot the process using
+
+61
+05:39.350 --> 05:47.060
+UiPath is only Studio to develop the process and an attended or unattended robot to execute the process.
+
+62
+05:47.690 --> 05:53.660
+UiPath Orchestrator is only needed for those who seek to scale their robotics initiative, automate
+
+63
+05:53.660 --> 06:00.140
+a number of processes and are in need of a tool to monitor, schedule and control the automated processes.
+
+64
+06:03.010 --> 06:05.950
+So what about the costs of the different components?
+
+65
+06:06.160 --> 06:12.580
+Well, finding pricing for different RPA tools is not straightforward and prices are usually not publicly
+
+66
+06:12.580 --> 06:13.190
+available.
+
+67
+06:13.930 --> 06:20.410
+Prices are often set based on your organization's size, your needs, and how well you manage to negotiate
+
+68
+06:20.410 --> 06:21.910
+the price with the vendor.
+
+69
+06:22.630 --> 06:29.590
+However, for the main components of UiPath, you should expect prices of approximately 2000-3000€
+
+70
+06:29.590 --> 06:32.580
+annually per studio license.
+
+71
+06:33.550 --> 06:37.270
+And what we will do is to use the free Community Edition of Studio
+
+72
+06:37.270 --> 06:46.210
+in this training. For Orchestrator, you should expect prices around 20.000€ annually. For an unattended
+
+73
+06:46.210 --> 06:53.200
+robot, about 8000€ per robot annually, and for an attended robot somewhere between 1200-1800€
+
+74
+06:53.200 --> 06:55.870
+per robot annually.
+
+75
+06:57.040 --> 07:03.250
+As you can see, Orchestrator is the most expensive. And one of many great features of Orchestrator is
+
+76
+07:03.250 --> 07:08.930
+the chance to schedule your automated processes and to have them executed from the web application.
+
+77
+07:09.760 --> 07:14.610
+However, to start processes without Orchestrator, there are several options:
+
+78
+07:15.160 --> 07:21.490
+This can be done directly from UiPath Studio or the UiPath Assistant, which we will be doing, or it
+
+79
+07:21.490 --> 07:28.270
+can be done directly from the Windows Command Line or by using restful APIs. For both scheduling and
+
+80
+07:28.270 --> 07:29.010
+execution,
+
+81
+07:29.020 --> 07:34.150
+one could also use, for example, Windows Task Scheduler, among other options.
+
+82
+07:35.690 --> 07:40.040
+And that's what we need to know right now about the UiPath Platform.

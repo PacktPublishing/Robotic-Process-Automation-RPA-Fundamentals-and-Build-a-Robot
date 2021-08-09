@@ -1,0 +1,589 @@
+WEBVTT
+
+0
+00:01.690 --> 00:10.880
+Step 1: Identify, evaluate and prioritize processes. First we need to identify processes that has an
+
+1
+00:10.930 --> 00:18.250
+automation potential, then we need to evaluate those processes in more detail - both their applicability
+
+2
+00:18.300 --> 00:25.960
+for using the RPA technology, but also their business potential in terms of expected return on investment.
+
+3
+00:25.960 --> 00:34.030
+Finally, we need to prioritize which processes to automate and in what order before we move on to the next step.
+
+4
+00:34.030 --> 00:36.640
+...
+
+5
+00:36.900 --> 00:44.700
+First looking at: How to identify processes. How do we actually do this in practice?
+
+6
+00:45.150 --> 00:54.000
+Well, first of all it is important to establish interest and understanding of RPA in your organization.
+
+7
+00:54.150 --> 00:56.700
+This can be done in several ways,
+
+8
+00:56.700 --> 01:02.970
+for example, you could be holding training seminars and presentations for your colleagues. You could be sending
+
+9
+01:03.060 --> 01:06.900
+informational emails to your organization.
+
+10
+01:06.900 --> 01:12.570
+You could be sharing RPA content and articles, or you could have your colleagues finish a course
+
+11
+01:12.570 --> 01:16.270
+like this one on Udemy.
+
+12
+01:16.290 --> 01:24.410
+It's all about creating awareness and necessary understanding, so that your colleagues actually understand
+
+13
+01:24.450 --> 01:32.350
+the technology; what it is, how it works, its benefits and disadvantages.
+
+14
+01:32.670 --> 01:38.940
+When you've created the necessary awareness it's time to identify the processes that has an automation potential,
+
+15
+01:38.940 --> 01:46.920
+and a good and proven way of doing this is by organizing internal workshops with different
+
+16
+01:46.920 --> 01:54.420
+business functions and create a high level long list of processes with an automation potential for every
+
+17
+01:54.420 --> 01:56.830
+single business function/unit.
+
+18
+01:57.570 --> 02:03.930
+I would recommend you to have the different business function come up with at least 10 business
+
+19
+02:03.930 --> 02:12.090
+processes each. And once that is done, you merge these lists together and then you'll have a comprehensive list
+
+20
+02:12.300 --> 02:15.800
+of processes with an automation potential.
+
+21
+02:15.960 --> 02:20.200
+So you may ask "what does such a list look like?".
+
+22
+02:20.430 --> 02:23.770
+Well, it might look something like this:
+
+23
+02:25.760 --> 02:32.680
+In the long list here we have the "Process name"; indicating what the task is.
+
+24
+02:32.900 --> 02:35.170
+So here we see the first example.
+
+25
+02:35.240 --> 02:39.030
+The task name is "Post invoices".
+
+26
+02:39.270 --> 02:47.870
+Then we have the "Process trigger" which indicates what trigger, event or condition that kick off the task.
+
+27
+02:47.870 --> 02:53.900
+This could be a schedule, for example, that the task need to be done on a certain day or at a certain time.
+
+28
+02:53.900 --> 02:54.760
+...
+
+29
+02:55.070 --> 03:01.850
+It could be a file system trigger, for example, that the task needs to be done whenever one or more files
+
+30
+03:01.850 --> 03:09.760
+are received, added, modified or deleted in a specific folder on your computer or on a server.
+
+31
+03:09.950 --> 03:12.390
+Or it could be triggered by an e-mail,
+
+32
+03:12.470 --> 03:16.820
+for example, whenever you receive an email matching some criteria.
+
+33
+03:17.060 --> 03:21.070
+This could be that the subject line contains certain words,
+
+34
+03:21.080 --> 03:25.660
+for example, "robot task".
+
+35
+03:25.680 --> 03:32.850
+Then we have the process steps which simply describes the process from a high level perspective
+
+36
+03:33.180 --> 03:36.470
+so that we all have an idea of the process flow.
+
+37
+03:36.930 --> 03:44.610
+For the "Post invoices"-example we log into an application, where we search for invoices, we do a control
+
+38
+03:44.610 --> 03:53.400
+of these invoices, before we post them and then we close the application. The next element in the long
+
+39
+03:53.400 --> 04:02.190
+list is the "Estimated number of hours spent on the process", and it should be a combination of a qualified
+
+40
+04:02.190 --> 04:10.830
+guess and an estimate - That is what I like to call an "Guesstimate" - on how much time employees
+
+41
+04:10.830 --> 04:14.650
+spend every year on doing the process manually today.
+
+42
+04:14.760 --> 04:21.660
+The reason for doing this is so that we have an idea of the time saving potential of the process if
+
+43
+04:21.720 --> 04:23.940
+automated.
+
+44
+04:24.440 --> 04:30.440
+Then we have the "Estimated automation potential", which should be your best "guesstimate" on how many percentage
+
+45
+04:30.500 --> 04:35.360
+of the processes, transactions or task that actually can be automated.
+
+46
+04:35.870 --> 04:41.510
+As we can see from the example here, the estimated automation potential for the first process is set
+
+47
+04:41.510 --> 04:43.220
+to 80%.
+
+48
+04:43.220 --> 04:49.580
+This could mean that 20% of invoices need a humans opinion before being posted, because there are
+
+49
+04:49.580 --> 04:52.580
+no rule-based way to treat those invoices.
+
+50
+04:53.820 --> 05:02.070
+And finally we have "All systems the process interacts with" and a general rule is that more systems increases
+
+51
+05:02.070 --> 05:08.440
+automation complexity and therefore how much time is needed for RPA development and process maintenance.
+
+52
+05:10.290 --> 05:16.830
+For the "Post invoices"-example we see that there are basically two systems we interact with, which
+
+53
+05:16.830 --> 05:21.240
+is  the invoice application and Microsoft Outlook.
+
+54
+05:21.720 --> 05:25.590
+You will find a long list process identification PowerPoint template
+
+55
+05:25.590 --> 05:28.230
+in this courses downloadable resources.
+
+56
+05:33.210 --> 05:38.880
+Once a long list of processes has been made, we need to start evaluating the most promising processes
+
+57
+05:38.970 --> 05:40.740
+in more detail.
+
+58
+05:40.860 --> 05:48.360
+A good indication of what processes to evaluate in more detail can be found by taking the estimated
+
+59
+05:48.360 --> 05:56.850
+number of hours spent on the process and multiply by the estimated automation potential. The higher the
+
+60
+05:56.850 --> 06:04.560
+numbers of hours spent, the higher the automation potential. Then we could for example evaluate the 10 most
+
+61
+06:04.560 --> 06:13.200
+promising processes according to this estimate in more detail using an automation matrix. And an automation
+
+62
+06:13.200 --> 06:16.050
+matrix may look something like this:
+
+63
+06:18.680 --> 06:25.950
+Looking at the matrix we have different fields to be filled with information for automation potential
+
+64
+06:26.040 --> 06:29.730
+and for automation complexity.
+
+65
+06:29.760 --> 06:36.990
+In addition we use color coding to identify whether a process has high potential or low complexity;
+
+66
+06:37.170 --> 06:44.520
+shown by the green color. Medium potential or medium complexity; shown by the yellow color. Or low potential
+
+67
+06:44.520 --> 06:47.850
+or high complexity; shown by the red color.
+
+68
+06:48.240 --> 06:56.250
+So if we start by looking at potential we have first the average processing time for a process or transaction,
+
+69
+06:57.090 --> 07:01.480
+then we have the number of times the process or transaction is executed every week,
+
+70
+07:01.680 --> 07:07.050
+then what share of the process that can be automated, and then how many full time employees (FTEs) are potentially
+
+71
+07:07.050 --> 07:11.460
+replaced if the process is automated.
+
+72
+07:11.460 --> 07:16.980
+Then we'd like to ask whether the process have peak periods because we know that processes with seasonal
+
+73
+07:16.980 --> 07:22.430
+peaks normally extend delivery time due to little or no test data.
+
+74
+07:22.680 --> 07:28.790
+And then we ask whether the process is prone to errors, which will normally reduce the automation potential
+
+75
+07:28.790 --> 07:29.830
+of the process if so.
+
+76
+07:29.970 --> 07:38.460
+The complexity are shortening and lengthening factors that will help estimate how much delivery time
+
+77
+07:38.460 --> 07:43.500
+is needed to develop the process using RPA delivery software.
+
+78
+07:43.500 --> 07:50.620
+In practice companies often set robotics delivery duration to either 4 weeks for non-complex processes,
+
+79
+07:51.210 --> 07:57.510
+8 weeks for medium complex processes and 12 weeks for high complex processes.
+
+80
+07:57.720 --> 08:05.910
+Important questions to ask to do this estimate is whether the process input is standardized; because we
+
+81
+08:05.910 --> 08:12.300
+know that processes requiring a lot of data cleansing will make the robot delivery time longer. Then we
+
+82
+08:12.300 --> 08:21.180
+ask; is the process input digital and structured? Structured, digital data in limited forms will reduce
+
+83
+08:21.180 --> 08:28.860
+complexity. While unstructured data, maybe even on paper and in unlimited forms, will make process automation
+
+84
+08:28.860 --> 08:32.380
+harder - or even impossible.
+
+85
+08:32.530 --> 08:34.390
+Is the process well documented?
+
+86
+08:34.510 --> 08:37.980
+Remember that we never automate a bad process!
+
+87
+08:38.610 --> 08:47.400
+What are the process data sources and which systems does the process use? Fewer systems, use of standard
+
+88
+08:47.400 --> 08:55.080
+systems that many companies use and systems with good code reduces complexity; while processes traveling
+
+89
+08:55.080 --> 09:02.340
+across many systems, legacy and proprietary systems and systems using remote access will take more time
+
+90
+09:02.340 --> 09:06.320
+to develop. Is the process rules-based?
+
+91
+09:06.570 --> 09:15.060
+Well, short rule-based processes are better than longer processes with a few or no rules. And then we'll
+
+92
+09:15.060 --> 09:15.560
+like to ask
+
+93
+09:15.580 --> 09:23.370
+if the process have exceptions, because few exceptions and few errors are much easier to handle than
+
+94
+09:23.400 --> 09:26.880
+processes with many exceptions and many errors.
+
+95
+09:27.300 --> 09:34.920
+Lastly, we like to ask if there are any need to make process changes before automation which if the answer
+
+96
+09:34.920 --> 09:35.730
+is "yes",
+
+97
+09:35.820 --> 09:38.880
+also will have an impact on the delivery time.
+
+98
+09:39.330 --> 09:47.370
+Let's continue with our "Post invoices"-example and fill out the different fields of the automation matrix.
+
+99
+09:47.370 --> 09:57.720
+The average processing time for each invoice is 2 minutes and this is done 1100 times every day for
+
+100
+09:57.720 --> 09:59.130
+5 days a week.
+
+101
+09:59.220 --> 10:04.120
+And this sums up to 5500 times a week.
+
+102
+10:04.380 --> 10:12.600
+We know that 80% of the process can be automated and this translates into 3.7 full time employees (FTEs)
+
+103
+10:12.960 --> 10:14.130
+a year.
+
+104
+10:14.770 --> 10:20.350
+The process does not have peak periods and the process is not prone to errors,
+
+105
+10:20.400 --> 10:23.370
+so the potential here is pretty high
+
+106
+10:23.370 --> 10:31.110
+I would say. Looking at the complexity, we know that the process input is standardized - It's all coming from an
+
+107
+10:31.140 --> 10:39.260
+invoice application system, it's digital and structured and the process is very well documented.
+
+108
+10:39.470 --> 10:48.050
+The data sources of the process are the invoice application system and apart from that, it only uses Outlook.
+
+109
+10:48.350 --> 10:59.670
+The process is rules-based and it has some few exceptions, which are the 20% that cannot be automated
+
+110
+10:59.700 --> 11:08.140
+and still need humans to handle. And there are no process changes needed for automation.
+
+111
+11:08.150 --> 11:14.100
+So now I've shown you some important questions that you can ask when you want to evaluate processes
+
+112
+11:14.190 --> 11:22.930
+in more detail and I've added an extended process automation matrix Excel template in this courses
+
+113
+11:23.140 --> 11:29.360
+downloadable resources that you may use in your organization to evaluate processes.
+
+114
+11:29.380 --> 11:34.420
+You're welcome! Once processes are evaluated,
+
+115
+11:34.460 --> 11:40.790
+we will have a good understanding of the different processes automation potential and complexity.
+
+116
+11:40.790 --> 11:42.910
+To find out what processes to automate first,
+
+117
+11:42.910 --> 11:49.580
+we use an automation impact assessment where processes are assessed for automation potential
+
+118
+11:49.670 --> 11:50.950
+and complexity.
+
+119
+11:51.200 --> 11:57.530
+And since we cannot know - with 100% certainty - the exact potential and complexity of a process, such
+
+120
+11:57.530 --> 12:05.000
+an assessment is a very good and visual way to find the processes with the highest RPA potential.
+
+121
+12:05.210 --> 12:11.930
+In our example, the "Post invoice"-process looks like a very good candidate having a high automation potential
+
+122
+12:11.960 --> 12:13.730
+and low complexity.
+
+123
+12:14.250 --> 12:20.690
+The high automation potential is based on the fact that we can potentially save 3.7 full time employees (FTEs)
+
+124
+12:20.750 --> 12:23.840
+on automating this one process.
+
+125
+12:23.840 --> 12:30.860
+The low complexity means it can potentially be automated in approximately four weeks and the return
+
+126
+12:30.860 --> 12:38.690
+on investment (ROI) for such a process is usually very high - and the payback time very low. Please also do remember
+
+127
+12:38.690 --> 12:44.320
+that there are other benefits of process automation than just economical.
+
+128
+12:44.420 --> 12:47.910
+Automation is usually equivalent to higher quality as well.
+
+129
+12:48.080 --> 12:54.080
+And if high quality is a goal for your organization, this should be emphasized when prioritising different
+
+130
+12:54.080 --> 12:54.860
+processes.
+
+131
+12:58.410 --> 13:04.080
+Before we end this lesson, I would just like to add a quick note on where to start looking for automation
+
+132
+13:04.080 --> 13:07.470
+potential in your organization.
+
+133
+13:07.470 --> 13:13.890
+The consulting firm EY recently undertook a comprehensive research aimed at providing actionable insights
+
+134
+13:13.890 --> 13:20.340
+to leaders ready to take advantage of automation and ethically drive business transformation.
+
+135
+13:20.340 --> 13:29.640
+They mapped automation scores to nearly 2000 occupations in the US, UK, Canada and Australia and categorised
+
+136
+13:29.640 --> 13:36.560
+those occupations into 15 business functions across 16 industry sectors.
+
+137
+13:36.630 --> 13:42.450
+This mapping allowed them to understand how applicable automation was to different economies, sectors and
+
+138
+13:42.450 --> 13:44.500
+business functions.
+
+139
+13:45.030 --> 13:52.020
+As we can see, the 3 functions with the highest automation potential is: Finance, Administration and
+
+140
+13:52.020 --> 13:55.440
+Customer Service. In the finance function
+
+141
+13:55.440 --> 14:02.910
+it is estimated that 80% of tasks hold potential for automation. In the administration,
+
+142
+14:02.910 --> 14:07.680
+the number is 79% and in customer service 75%.
+
+143
+14:07.680 --> 14:15.060
+Note that this is potential across more technologies; both RPA, chatbots, machine learning (ML), natural language
+
+144
+14:15.060 --> 14:18.270
+understanding (NLU) and machine vision was part of the survey.
+
+145
+14:18.540 --> 14:24.780
+But these functions are probably a good starting point for having workshops and finding processes with an
+
+146
+14:24.780 --> 14:30.640
+automation potential and start the work with creating a long list of opportunities (in your firm).

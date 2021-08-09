@@ -1,0 +1,229 @@
+WEBVTT
+
+0
+00:01.080 --> 00:02.880
+RPA - Vendors.
+
+1
+00:05.870 --> 00:12.620
+Firstly, I would like to just mention that I am in no way affiliated with or endorsed by any RPA
+
+2
+00:12.620 --> 00:13.350
+providers.
+
+3
+00:14.180 --> 00:20.600
+This lesson is based upon the work of Forrester, which is a well-known research and advisory firm
+
+4
+00:20.600 --> 00:26.900
+worldwide, who performs quarterly and yearly evaluations of robotic process automation providers.
+
+5
+00:28.000 --> 00:34.180
+Note that this is also an assessment of what Forrester find as the top vendors in the market, and it
+
+6
+00:34.180 --> 00:38.080
+doesn't necessarily represent the entire vendor landscape.
+
+7
+00:39.810 --> 00:47.220
+Forrester categorizes providers into what they call "Leaders", "Strong performers", "Contenders" and
+
+8
+00:47.220 --> 00:48.090
+"Challengers".
+
+9
+00:48.930 --> 00:56.160
+In its latest report, Forrester identified the 14 most significant RPA providers and researched, analyzed
+
+10
+00:56.160 --> 00:59.280
+and scored them among 25 different criteria.
+
+11
+01:00.450 --> 01:06.600
+The report shows how each provider measures up, and it helps organizations make the right choice when
+
+12
+01:06.600 --> 01:09.270
+it comes to what RPA tool to use.
+
+13
+01:11.550 --> 01:19.140
+The 25 evaluation criteria are grouped into three high level categories, the first one is "Current offering".
+
+14
+01:19.140 --> 01:19.740
+...
+
+15
+01:20.460 --> 01:26.850
+So each vendor's position on the vertical axis of the Forrester Wave graphic that you now see in front of
+
+16
+01:26.850 --> 01:30.480
+you, indicates the strength of its current offering.
+
+17
+01:31.510 --> 01:38.740
+Key criteria include task and process discovery and portfolio analysis, bot design and development,
+
+18
+01:39.070 --> 01:46.120
+deployment and management of the bots; security and governance, scaling experience and architecture.
+
+19
+01:47.810 --> 01:53.720
+And then we have "Strategy". Placement on the horizontal axis indicates the strength of the vendor's strategies,
+
+20
+01:53.720 --> 02:00.620
+where product vision and innovation roadmap; delivery and support models, financial performance,
+
+21
+02:00.620 --> 02:03.260
+and partner ecosystems are evaluated.
+
+22
+02:04.790 --> 02:11.960
+The last high level category is "Market Presence", and market presence is represented by the size of
+
+23
+02:11.960 --> 02:19.580
+the markers on the graphic. The score reflect each vendor's number and dollar value of RPA customers,
+
+24
+02:19.790 --> 02:22.800
+as well as the overall RPA product revenue.
+
+25
+02:23.390 --> 02:31.510
+There are six RPA providers that did very well among most criteria and that are evaluated as "Leaders".
+
+26
+02:32.030 --> 02:42.500
+These are UiPath, Automation Anywhere, Microsoft, Nice, Kryon and Work Fusion; where UiPath was recognized
+
+27
+02:42.530 --> 02:49.070
+as the ultimate leader and achieved the highest score in all of the three high level categories mentioned.
+
+28
+02:50.390 --> 02:55.850
+Although UiPath has been pointed out as the leader for many years now, this is the first time they
+
+29
+02:55.850 --> 02:59.540
+actually achieved the highest score in all these categories.
+
+30
+03:01.670 --> 03:07.400
+Please also note that it may be of interest to pay attention to larger actors now entering the RPA
+
+31
+03:07.430 --> 03:08.190
+market space.
+
+32
+03:08.840 --> 03:14.060
+Microsoft is a newcomer on this list after acquiring Softomotive in 2020,
+
+33
+03:14.300 --> 03:20.000
+and Microsoft are now offering RPA capabilities in their Power Automate product.
+
+34
+03:22.040 --> 03:28.520
+Personally, I've been working with UiPath, Blue Prism and Automation Anywhere, and these are still
+
+35
+03:28.520 --> 03:34.430
+the three RPA providers with the highest presence and size in the market space, meaning that they
+
+36
+03:34.430 --> 03:37.130
+are the market leaders speaking in more traditional terms.
+
+37
+03:40.220 --> 03:46.190
+Looking at another ranking of RPA providers, and this time from IT Central Station, which is one
+
+38
+03:46.190 --> 03:52.160
+of the world's leading product reviews sites for enterprise technology, we again find UiPath as the
+
+39
+03:52.160 --> 03:55.230
+leader, followed by Automation Anywhere and Blue Prism.
+
+40
+03:56.150 --> 04:03.440
+So this is a very interesting ranking as it's based solely on aggregated user reviews. To find out how
+
+41
+04:03.440 --> 04:07.230
+they compare on a more detailed level and to find the right tool for you,
+
+42
+04:07.280 --> 04:13.520
+I suggest you have a deeper look at the Forrester Wave report or at the user reviews at IT Central Station,
+
+43
+04:13.790 --> 04:17.690
+and I will provide you with the links.
+
+44
+04:17.810 --> 04:19.010
+In this training, we will continue with UiPath.
+
+45
+04:19.010 --> 04:26.090
+UiPath offers the proven and reliable tools and technologies needed to build effective RPA bots
+
+46
+04:26.090 --> 04:29.180
+for even the most complex of processes.
+
+47
+04:29.540 --> 04:35.420
+And I believe UiPath will continue to lead the way in developing new and innovative technology that
+
+48
+04:35.420 --> 04:39.980
+helps drive RPA adoption in more businesses and organizations around the globe.
+
+49
+04:40.940 --> 04:43.280
+UiPath is the most popular tool,
+
+50
+04:43.280 --> 04:46.420
+it has free online training and certification programs,
+
+51
+04:46.700 --> 04:53.390
+it has a great and open community for both developers and project managers that you can participate
+
+52
+04:53.390 --> 04:54.410
+and contribute in.
+
+53
+04:54.830 --> 04:59.540
+And it is also the tool, of course, where I have the most hands-on experience myself.
+
+54
+05:00.890 --> 05:06.560
+In the next module, you will download and use their software for free and immediately start learning
+
+55
+05:06.560 --> 05:07.570
+RPA development.
+
+56
+05:07.580 --> 05:09.980
+So that is really something to look forward to.

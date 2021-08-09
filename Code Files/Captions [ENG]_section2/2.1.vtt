@@ -1,0 +1,89 @@
+WEBVTT
+
+0
+00:02.240 --> 00:07.010
+- What is RPA and how does it work? 
+
+1
+00:07.010 --> 00:15.560
+Welcome to this very first section of this course, where we'll cover RPA - what it is and how it works,
+
+2
+00:15.890 --> 00:17.110
+why now,
+
+3
+00:17.270 --> 00:23.780
+the pros and cons of the technology, what vendors are out there, and where we'll do a little RPA case study
+
+4
+00:23.780 --> 00:26.980
+At the end of this section,
+
+5
+00:27.050 --> 00:31.140
+you'll be able to explain what Robotic Process Automation is,
+
+6
+00:31.160 --> 00:37.940
+explain how it works, why it's such a hot topic right now and what the pros and cons of the technology are;
+
+7
+00:37.940 --> 00:45.210
+so that you confidently can discuss RPA in an enterprise setting or at a job interview.
+
+8
+00:45.320 --> 00:50.570
+And since this is the first section of the course, I'll also quickly mention what we'll cover in later sections
+
+9
+00:50.810 --> 00:52.010
+- so that you know what's coming.
+
+10
+00:54.820 --> 00:58.300
+When we finish the section on what RPA is and how it works,
+
+11
+00:58.300 --> 01:04.470
+we'll continue with the section "Build your first robot", where we will cover the UiPath platform.
+
+12
+01:04.570 --> 01:06.940
+how to install UiPath Studio,
+
+13
+01:06.940 --> 01:13.780
+we will get to know the UiPath Studio user interface, and we'll of course build a simple robot.
+
+14
+01:14.000 --> 01:20.470
+Then we'll have a section on how to pilot RPA in your enterprise.
+
+15
+01:20.470 --> 01:26.530
+Here we'll have a look at a five step basic plan for piloting and implementing RPA.
+
+16
+01:26.590 --> 01:31.200
+We will have a look at how we can create an RPA Center of Excellence,
+
+17
+01:31.240 --> 01:37.840
+we will look at some critical success factors for an RPA initiative and we will have more examples of
+
+18
+01:37.840 --> 01:41.200
+how RPA has been applied in the real world,
+
+19
+01:41.200 --> 01:47.890
+Before we wrap-it all up with a short section on further learning and what you can do next to improve
+
+20
+01:47.890 --> 01:53.580
+your RPA skills, whether you're an aspiring RPA developer or RPA project manager.
+
+21
+01:54.220 --> 01:57.580
+But first - What is RPA and how does it work?
