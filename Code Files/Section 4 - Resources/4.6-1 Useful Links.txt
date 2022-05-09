@@ -1,4 +1,0 @@
-1. Cronmaker - Cron expression generator alternative 1: http://www.cronmaker.com/
-
-2. Crontab.guru - Cron expression generator alternative 2:  https://crontab.guru/
-

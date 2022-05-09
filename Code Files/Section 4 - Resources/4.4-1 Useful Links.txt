@@ -1,5 +1,0 @@
-1. Lucidchart - Flowcharts & diagrams online: https://www.lucidchart.com
-
-2. Diagrams - Flowcharts & diagrams online: https://www.diagrams.net/
-
-3. UiPath Task Capture: https://www.uipath.com/product/task-capture
